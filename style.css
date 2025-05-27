@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(200, 153, 243);/* Light beige background for a soft look */
+  font-family: Arial, sans-serif; /* Use a clean sans-serif font */
+  display: flex; /* Enable Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Make the body take full viewport height */
+}
+
+.quote-box {
+  text-align: center; /* Center the text inside */
+  padding: 20px; /* Space inside the box */
+  border: 2px solid #000; /* Black border around the box */
+  background-color: #eab7ff; /* White background inside the box */
+  border-radius: 8px; /* Rounded corners */
+  width: 300px; /* Fixed width for consistency */
+  margin-left: 20px;
+}
+
+#newQuote {
+  margin-top: 15px; /* Space above the button */
+  padding: 10px; /* Padding inside the button */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border: 2px solid #000000;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: rgb(220, 188, 250);
+
+}
